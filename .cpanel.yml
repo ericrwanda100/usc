@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/uscworld/test.uscworldeducation.com/
+    - /bin/cp -R images $DEPLOYPATH
